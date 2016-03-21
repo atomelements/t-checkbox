@@ -99,7 +99,7 @@
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  padding-left: 8px;
+  padding-left: var(--checkbox-label-padding left, 8px);
   white-space: normal;
   pointer-events: none;
   font-size:var(--checkbox-item-text-size, 14px);
