@@ -1,0 +1,19 @@
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../t-checkbox.html">
+<link rel="import" href="../../t-shared-components/theme.html">
+
+<dom-module id="demo-element">
+  <template>
+   <style></style>
+
+      <t-checkbox checked> Something osossoos</t-checkbox>
+
+  </template>
+
+  <script>
+    class DemoElement extends Polymer.Element {
+      static get is() { return 'demo-element' }
+    }
+    customElements.define(DemoElement.is, DemoElement);
+  </script>
+</dom-module>
